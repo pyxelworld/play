@@ -1,0 +1,57 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(140deg, rgba(249,105,2,1) 0%, rgba(255,245,0,1) 48%);
+  font-family: LS;
+color: white;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  margin-top: -75px;
+}
+
+.nav {
+  display: flex;
+}
+
+@font-face {
+    font-family: 'LS';
+    src: url('/leaguespartan.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.button {
+  width: 220px;
+  height: 220px;
+  margin-top: -65px;
+}
+.button {
+  background-color: white;
+  border-radius: 18px;
+  width: 160px;
+  height: 50px;
+  font-family: LS;
+  font-size: 23px;
+  margin-top: 22px;
+  border: none;
+}
+
+.buttonactive {
+  background-color: white;
+  border-radius: 18px;
+  width: 160px;
+  height: 50px;
+  font-family: LS;
+  font-size: 23px;
+  margin-top: 22px;
+}
+
+.fullbutton {
+  margin-right: 12px;
+}

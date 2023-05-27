@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Publique | Playground</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <div class="nav">
+    <img src="/icons/logopng.png" class="logo">
+    <br>
+  <a href="/" class="fullbutton"><input type="button" class="button" value="Início"></a>
+    <a href="/publicar/" class="fullbutton"><input type="button" class="buttonactive" value="Publicar"></a>
+    <a href="/perfil/" class="fullbutton"><input type="button" class="button" value="Perfil"></a>
+  </div>
+
+    <h1 class="ls">Publique no Playground</h1>
+    <br>
+    <form action="https://formsubmit.co/26346cc26e8b0567c5b9f53972f01366" name="Post a Game" method="post"
+      enctype="multipart/form-data">
+      <div>
+        <p>Arquivo do jogo <input type="file" name="Playgroundpublish-file" id="file" placeholder="Upload do arquivo"></p>
+        <p>ou...</p>
+        <input type="url" name="URL" placeholder="Link do Jogo">
+      </div>
+      <br>
+      <br>
+      <p>Logo (foto) do jogo <input type="file" name="Picture" id="Picture" placeholder="Foto do jogo"></p>
+      <br>
+      <br>
+      <br>
+      <div>
+        <label class="tf">Entre com seu Play account para continuar</label>
+        <input type="text" name="Playname" placeholder="Insira seu Playname" required>
+      </div>
+      <br>
+      <div>
+        <input type="password" name="Password" placeholder="Insira sua senha">
+      </div>
+      <br>
+      <div>
+        <input type="checkbox" name="Made by me" required>
+        <label>Esse jogo foi feito por mim ou por minha equipe?</label>
+      </div>
+      <br>
+      <br>
+      <input type="submit" value="Publicar">
+    </form>
+  </div>
+</body>
+</html>
