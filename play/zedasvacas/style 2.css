@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #FCB200;
+  background: linear-gradient(140deg, rgba(249,105,2,1) 0%, rgba(255,245,0,1) 48%);
   font-family: LS;
 color: white;
 }
@@ -76,4 +76,12 @@ p {
 
 .fullbutton {
   margin-right: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+.gamerunning {
+  border-radius: 10px;
 }
